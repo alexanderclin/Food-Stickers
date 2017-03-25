@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE0BBBA01E86B46300482664"
+               BlueprintIdentifier = "EE0BBBCA1E86B55C00482664"
                BuildableName = "MessagesExtension.appex"
                BlueprintName = "MessagesExtension"
-               ReferencedContainer = "container:FoodStickers.xcodeproj">
+               ReferencedContainer = "container:foodstickers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,10 +29,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EE0BBB961E86B46300482664"
-               BuildableName = "FoodStickers.app"
-               BlueprintName = "FoodStickers"
-               ReferencedContainer = "container:FoodStickers.xcodeproj">
+               BlueprintIdentifier = "EE0BBBC01E86B55C00482664"
+               BuildableName = "foodstickers.app"
+               BlueprintName = "foodstickers"
+               ReferencedContainer = "container:foodstickers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,10 +47,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE0BBBA01E86B46300482664"
+            BlueprintIdentifier = "EE0BBBCA1E86B55C00482664"
             BuildableName = "MessagesExtension.appex"
             BlueprintName = "MessagesExtension"
-            ReferencedContainer = "container:FoodStickers.xcodeproj">
+            ReferencedContainer = "container:foodstickers.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -71,10 +71,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE0BBB961E86B46300482664"
-            BuildableName = "FoodStickers.app"
-            BlueprintName = "FoodStickers"
-            ReferencedContainer = "container:FoodStickers.xcodeproj">
+            BlueprintIdentifier = "EE0BBBC01E86B55C00482664"
+            BuildableName = "foodstickers.app"
+            BlueprintName = "foodstickers"
+            ReferencedContainer = "container:foodstickers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -91,10 +91,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EE0BBB961E86B46300482664"
-            BuildableName = "FoodStickers.app"
-            BlueprintName = "FoodStickers"
-            ReferencedContainer = "container:FoodStickers.xcodeproj">
+            BlueprintIdentifier = "EE0BBBC01E86B55C00482664"
+            BuildableName = "foodstickers.app"
+            BlueprintName = "foodstickers"
+            ReferencedContainer = "container:foodstickers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

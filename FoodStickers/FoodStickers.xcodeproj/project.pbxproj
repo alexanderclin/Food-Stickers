@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE0BBB9B1E86B46300482664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0BBB9A1E86B46300482664 /* Assets.xcassets */; };
-		EE0BBBA21E86B46300482664 /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EE0BBBA11E86B46300482664 /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		EE0BBBA71E86B46300482664 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0BBBA61E86B46300482664 /* Messages.framework */; };
-		EE0BBBAA1E86B46300482664 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0BBBA91E86B46300482664 /* MessagesViewController.swift */; };
-		EE0BBBAD1E86B46300482664 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0BBBAB1E86B46300482664 /* MainInterface.storyboard */; };
-		EE0BBBAF1E86B46300482664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0BBBAE1E86B46300482664 /* Assets.xcassets */; };
+		EE0BBBC51E86B55C00482664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0BBBC41E86B55C00482664 /* Assets.xcassets */; };
+		EE0BBBCC1E86B55C00482664 /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EE0BBBCB1E86B55C00482664 /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EE0BBBD11E86B55C00482664 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0BBBD01E86B55C00482664 /* Messages.framework */; };
+		EE0BBBD41E86B55C00482664 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0BBBD31E86B55C00482664 /* MessagesViewController.swift */; };
+		EE0BBBD71E86B55C00482664 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0BBBD51E86B55C00482664 /* MainInterface.storyboard */; };
+		EE0BBBD91E86B55C00482664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0BBBD81E86B55C00482664 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EE0BBBA31E86B46300482664 /* PBXContainerItemProxy */ = {
+		EE0BBBCD1E86B55C00482664 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EE0BBB911E86B46300482664 /* Project object */;
+			containerPortal = EE0BBBBB1E86B55C00482664 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EE0BBBA01E86B46300482664;
+			remoteGlobalIDString = EE0BBBCA1E86B55C00482664;
 			remoteInfo = MessagesExtension;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EE0BBBB61E86B46300482664 /* Embed App Extensions */ = {
+		EE0BBBE01E86B55C00482664 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				EE0BBBA21E86B46300482664 /* MessagesExtension.appex in Embed App Extensions */,
+				EE0BBBCC1E86B55C00482664 /* MessagesExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,72 +40,72 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EE0BBB971E86B46300482664 /* FoodStickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodStickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE0BBB9A1E86B46300482664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE0BBB9C1E86B46300482664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE0BBBA11E86B46300482664 /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE0BBBA61E86B46300482664 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
-		EE0BBBA91E86B46300482664 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
-		EE0BBBAC1E86B46300482664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		EE0BBBAE1E86B46300482664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE0BBBB01E86B46300482664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0BBBC11E86B55C00482664 /* foodstickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodstickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0BBBC41E86B55C00482664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0BBBC61E86B55C00482664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0BBBCB1E86B55C00482664 /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0BBBD01E86B55C00482664 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		EE0BBBD31E86B55C00482664 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		EE0BBBD61E86B55C00482664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		EE0BBBD81E86B55C00482664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0BBBDA1E86B55C00482664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE0BBB9E1E86B46300482664 /* Frameworks */ = {
+		EE0BBBC81E86B55C00482664 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0BBBA71E86B46300482664 /* Messages.framework in Frameworks */,
+				EE0BBBD11E86B55C00482664 /* Messages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EE0BBB901E86B46300482664 = {
+		EE0BBBBA1E86B55C00482664 = {
 			isa = PBXGroup;
 			children = (
-				EE0BBB991E86B46300482664 /* FoodStickers */,
-				EE0BBBA81E86B46300482664 /* MessagesExtension */,
-				EE0BBBA51E86B46300482664 /* Frameworks */,
-				EE0BBB981E86B46300482664 /* Products */,
+				EE0BBBC31E86B55C00482664 /* foodstickers */,
+				EE0BBBD21E86B55C00482664 /* MessagesExtension */,
+				EE0BBBCF1E86B55C00482664 /* Frameworks */,
+				EE0BBBC21E86B55C00482664 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EE0BBB981E86B46300482664 /* Products */ = {
+		EE0BBBC21E86B55C00482664 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE0BBB971E86B46300482664 /* FoodStickers.app */,
-				EE0BBBA11E86B46300482664 /* MessagesExtension.appex */,
+				EE0BBBC11E86B55C00482664 /* foodstickers.app */,
+				EE0BBBCB1E86B55C00482664 /* MessagesExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE0BBB991E86B46300482664 /* FoodStickers */ = {
+		EE0BBBC31E86B55C00482664 /* foodstickers */ = {
 			isa = PBXGroup;
 			children = (
-				EE0BBB9A1E86B46300482664 /* Assets.xcassets */,
-				EE0BBB9C1E86B46300482664 /* Info.plist */,
+				EE0BBBC41E86B55C00482664 /* Assets.xcassets */,
+				EE0BBBC61E86B55C00482664 /* Info.plist */,
 			);
-			path = FoodStickers;
+			path = foodstickers;
 			sourceTree = "<group>";
 		};
-		EE0BBBA51E86B46300482664 /* Frameworks */ = {
+		EE0BBBCF1E86B55C00482664 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EE0BBBA61E86B46300482664 /* Messages.framework */,
+				EE0BBBD01E86B55C00482664 /* Messages.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EE0BBBA81E86B46300482664 /* MessagesExtension */ = {
+		EE0BBBD21E86B55C00482664 /* MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
-				EE0BBBA91E86B46300482664 /* MessagesViewController.swift */,
-				EE0BBBAB1E86B46300482664 /* MainInterface.storyboard */,
-				EE0BBBAE1E86B46300482664 /* Assets.xcassets */,
-				EE0BBBB01E86B46300482664 /* Info.plist */,
+				EE0BBBD31E86B55C00482664 /* MessagesViewController.swift */,
+				EE0BBBD51E86B55C00482664 /* MainInterface.storyboard */,
+				EE0BBBD81E86B55C00482664 /* Assets.xcassets */,
+				EE0BBBDA1E86B55C00482664 /* Info.plist */,
 			);
 			path = MessagesExtension;
 			sourceTree = "<group>";
@@ -113,30 +113,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE0BBB961E86B46300482664 /* FoodStickers */ = {
+		EE0BBBC01E86B55C00482664 /* foodstickers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE0BBBB71E86B46300482664 /* Build configuration list for PBXNativeTarget "FoodStickers" */;
+			buildConfigurationList = EE0BBBE11E86B55C00482664 /* Build configuration list for PBXNativeTarget "foodstickers" */;
 			buildPhases = (
-				EE0BBB951E86B46300482664 /* Resources */,
-				EE0BBBB61E86B46300482664 /* Embed App Extensions */,
+				EE0BBBBF1E86B55C00482664 /* Resources */,
+				EE0BBBE01E86B55C00482664 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EE0BBBA41E86B46300482664 /* PBXTargetDependency */,
+				EE0BBBCE1E86B55C00482664 /* PBXTargetDependency */,
 			);
-			name = FoodStickers;
-			productName = FoodStickers;
-			productReference = EE0BBB971E86B46300482664 /* FoodStickers.app */;
+			name = foodstickers;
+			productName = foodstickers;
+			productReference = EE0BBBC11E86B55C00482664 /* foodstickers.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
-		EE0BBBA01E86B46300482664 /* MessagesExtension */ = {
+		EE0BBBCA1E86B55C00482664 /* MessagesExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE0BBBB31E86B46300482664 /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
+			buildConfigurationList = EE0BBBDD1E86B55C00482664 /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
 			buildPhases = (
-				EE0BBB9D1E86B46300482664 /* Sources */,
-				EE0BBB9E1E86B46300482664 /* Frameworks */,
-				EE0BBB9F1E86B46300482664 /* Resources */,
+				EE0BBBC71E86B55C00482664 /* Sources */,
+				EE0BBBC81E86B55C00482664 /* Frameworks */,
+				EE0BBBC91E86B55C00482664 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,30 +144,30 @@
 			);
 			name = MessagesExtension;
 			productName = MessagesExtension;
-			productReference = EE0BBBA11E86B46300482664 /* MessagesExtension.appex */;
+			productReference = EE0BBBCB1E86B55C00482664 /* MessagesExtension.appex */;
 			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EE0BBB911E86B46300482664 /* Project object */ = {
+		EE0BBBBB1E86B55C00482664 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = foodstickers;
 				TargetAttributes = {
-					EE0BBB961E86B46300482664 = {
+					EE0BBBC01E86B55C00482664 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					EE0BBBA01E86B46300482664 = {
+					EE0BBBCA1E86B55C00482664 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = EE0BBB941E86B46300482664 /* Build configuration list for PBXProject "FoodStickers" */;
+			buildConfigurationList = EE0BBBBE1E86B55C00482664 /* Build configuration list for PBXProject "foodstickers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -175,61 +175,61 @@
 				en,
 				Base,
 			);
-			mainGroup = EE0BBB901E86B46300482664;
-			productRefGroup = EE0BBB981E86B46300482664 /* Products */;
+			mainGroup = EE0BBBBA1E86B55C00482664;
+			productRefGroup = EE0BBBC21E86B55C00482664 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE0BBB961E86B46300482664 /* FoodStickers */,
-				EE0BBBA01E86B46300482664 /* MessagesExtension */,
+				EE0BBBC01E86B55C00482664 /* foodstickers */,
+				EE0BBBCA1E86B55C00482664 /* MessagesExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EE0BBB951E86B46300482664 /* Resources */ = {
+		EE0BBBBF1E86B55C00482664 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0BBB9B1E86B46300482664 /* Assets.xcassets in Resources */,
+				EE0BBBC51E86B55C00482664 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE0BBB9F1E86B46300482664 /* Resources */ = {
+		EE0BBBC91E86B55C00482664 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0BBBAF1E86B46300482664 /* Assets.xcassets in Resources */,
-				EE0BBBAD1E86B46300482664 /* MainInterface.storyboard in Resources */,
+				EE0BBBD91E86B55C00482664 /* Assets.xcassets in Resources */,
+				EE0BBBD71E86B55C00482664 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EE0BBB9D1E86B46300482664 /* Sources */ = {
+		EE0BBBC71E86B55C00482664 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0BBBAA1E86B46300482664 /* MessagesViewController.swift in Sources */,
+				EE0BBBD41E86B55C00482664 /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EE0BBBA41E86B46300482664 /* PBXTargetDependency */ = {
+		EE0BBBCE1E86B55C00482664 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EE0BBBA01E86B46300482664 /* MessagesExtension */;
-			targetProxy = EE0BBBA31E86B46300482664 /* PBXContainerItemProxy */;
+			target = EE0BBBCA1E86B55C00482664 /* MessagesExtension */;
+			targetProxy = EE0BBBCD1E86B55C00482664 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EE0BBBAB1E86B46300482664 /* MainInterface.storyboard */ = {
+		EE0BBBD51E86B55C00482664 /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE0BBBAC1E86B46300482664 /* Base */,
+				EE0BBBD61E86B55C00482664 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -237,7 +237,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EE0BBBB11E86B46300482664 /* Debug */ = {
+		EE0BBBDB1E86B55C00482664 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -287,7 +287,7 @@
 			};
 			name = Debug;
 		};
-		EE0BBBB21E86B46300482664 /* Release */ = {
+		EE0BBBDC1E86B55C00482664 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,51 +330,51 @@
 			};
 			name = Release;
 		};
-		EE0BBBB41E86B46300482664 /* Debug */ = {
+		EE0BBBDE1E86B55C00482664 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-foodstickers.FoodStickers.MessagesExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-foodstickers.foodstickers.MessagesExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		EE0BBBB51E86B46300482664 /* Release */ = {
+		EE0BBBDF1E86B55C00482664 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-foodstickers.FoodStickers.MessagesExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-foodstickers.foodstickers.MessagesExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		EE0BBBB81E86B46300482664 /* Debug */ = {
+		EE0BBBE21E86B55C00482664 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FoodStickers/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-foodstickers.FoodStickers";
+				INFOPLIST_FILE = foodstickers/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-foodstickers.foodstickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		EE0BBBB91E86B46300482664 /* Release */ = {
+		EE0BBBE31E86B55C00482664 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FoodStickers/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-foodstickers.FoodStickers";
+				INFOPLIST_FILE = foodstickers/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-foodstickers.foodstickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -383,32 +383,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE0BBB941E86B46300482664 /* Build configuration list for PBXProject "FoodStickers" */ = {
+		EE0BBBBE1E86B55C00482664 /* Build configuration list for PBXProject "foodstickers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE0BBBB11E86B46300482664 /* Debug */,
-				EE0BBBB21E86B46300482664 /* Release */,
+				EE0BBBDB1E86B55C00482664 /* Debug */,
+				EE0BBBDC1E86B55C00482664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE0BBBB31E86B46300482664 /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
+		EE0BBBDD1E86B55C00482664 /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE0BBBB41E86B46300482664 /* Debug */,
-				EE0BBBB51E86B46300482664 /* Release */,
+				EE0BBBDE1E86B55C00482664 /* Debug */,
+				EE0BBBDF1E86B55C00482664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		EE0BBBB71E86B46300482664 /* Build configuration list for PBXNativeTarget "FoodStickers" */ = {
+		EE0BBBE11E86B55C00482664 /* Build configuration list for PBXNativeTarget "foodstickers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE0BBBB81E86B46300482664 /* Debug */,
-				EE0BBBB91E86B46300482664 /* Release */,
+				EE0BBBE21E86B55C00482664 /* Debug */,
+				EE0BBBE31E86B55C00482664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EE0BBB911E86B46300482664 /* Project object */;
+	rootObject = EE0BBBBB1E86B55C00482664 /* Project object */;
 }
