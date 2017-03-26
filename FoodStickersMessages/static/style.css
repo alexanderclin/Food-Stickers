@@ -1,5 +1,6 @@
 * {
 box-sizing: border-box;
+    color:#ecf0f1
 }
  
 *:focus {
@@ -7,7 +8,7 @@ box-sizing: border-box;
 }
 body {
 font-family: Arial;
-background-color: #3498DB;
+background-color: #3498db;
 padding: 50px;
 }
 .login {
@@ -24,7 +25,10 @@ border-radius: 5px
 text-align: center;
 color: #777;
 }
- 
+li{
+    
+    
+}
 .login-form {
 text-align: center;
 }
