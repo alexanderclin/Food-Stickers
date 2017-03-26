@@ -1,4 +1,6 @@
-from flask import Flask, request
+from flask import Flask, flash, redirect, render_template, request, session, abort
+import os
+ 
 from PIL import Image
 # from twilio import twiml
 import auth
@@ -40,8 +42,14 @@ def get_topping_type(imgurl):
         (0, 0, 255): "Cheese"
     }.get(color, "NULL")
 
+@app.route('/')
+def home():
+    if not session.get('logged_in'):
+        return render_template('login.html')
+    else:
+        return "Hello Boss!"
 
-@app.route("/", methods=['GET', 'POST'])
+@app.route("/sms", methods=['GET', 'POST'])
 def details_sms():
     # Replies with media url
     messenger = request.form['From']
@@ -84,8 +92,19 @@ def details_sms():
             from_=twilionumber,
             body="Got order details")
 
-    return 'OK'
+     
+        return 'OK'
 
+@app.route('/login', methods=['POST'])
+def do_admin_login():
+    if request.form['password'] == 'password' and request.form['username'] == 'admin':
+        session['logged_in'] = True
+    else:
+        flash('wrong password!')
+    return home()
+ 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.secret_key = os.urandom(12)
+
+    app.run(host='0.0.0.0', port=4000)
