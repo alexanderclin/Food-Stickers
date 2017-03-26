@@ -1,11 +1,20 @@
-from flask import Flask, request
+from flask import Flask, flash, redirect, render_template, request, session, abort
+import os
 from PIL import Image
 # from twilio import twiml
 import auth
 import requests
 from io import BytesIO
+from twilio.rest import TwilioRestClient
+
+
 
 app = Flask(__name__)
+
+account_sid = "AC8b7702bf26e08e4127130812d7e41279"
+auth_token = "21ccb590035f3a474a8be5db1bfaef0a"
+client = TwilioRestClient(account_sid, auth_token)
+
 client = auth.client
 
 details = {
@@ -32,20 +41,28 @@ def get_color(imgurl):
     pix = img.load()
     return pix[1, 1]
 
-
-class Order:
-    toppings = []
-    isComplete = False
+class Order(object):
+    def __init__(self):
+        self.toppings = []
 
 
 @app.route("/", methods=['GET', 'POST'])
+def web():
+    return render_template('login.html', pendingorders=pendingOrderDict,
+    completedorders=completedOrderDict)
+
+@app.route("/sms", methods=['GET', 'POST'])
 def sms():
+    print('hi')
     print(pendingOrderDict)
     print(completedOrderDict)
 
     usernum = request.form['From']
     twinum = request.form['To']
-
+    
+    print('RECEIVING MESSAGE FROM' + usernum)
+    print('Current TOPPINGS')
+    
     text = request.form['Body']
     print('Text following:')
     print(text)
@@ -74,6 +91,8 @@ def sms():
             from_=twinum,
             body="Starting order, input toppings:")
         print('Added burger')
+        print('CURRENT TOPPINGS')
+        print(pendingOrderDict[usernum].toppings)
         return 'GOT BURGER'
 
     if color == lettuceColor:
@@ -100,9 +119,10 @@ def sms():
         pendingOrderDict[usernum].toppings.append('Onion')
         print('Added onion')
         return 'GOT ONION'
-
-    return 'OK'
-
+    
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.secret_key = os.urandom(12)
+    app.run(host='0.0.0.0', port=5000, debug=True)
+
+
