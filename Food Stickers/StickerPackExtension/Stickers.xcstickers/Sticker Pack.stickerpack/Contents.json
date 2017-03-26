@@ -1,0 +1,29 @@
+{
+  "stickers" : [
+    {
+      "filename" : "hamburger.sticker"
+    },
+    {
+      "filename" : "cheese.sticker"
+    },
+    {
+      "filename" : "lettuce.sticker"
+    },
+    {
+      "filename" : "onion.sticker"
+    },
+    {
+      "filename" : "tomato.sticker"
+    },
+    {
+      "filename" : "tunup.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}
